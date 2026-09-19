@@ -1,18 +1,14 @@
 {
-    "id": "N/A",
-    "name": "ThereAreNoLevelsYet",
-    "author": "Nobody",
-    "creators": ["Creator1", "Creator2", "Creator3"],
-    "verifier": "Nobody",
-    "verification": "https://www.youtube.com/watch?v=ISTl28wKSXc",
-    "percentToQualify": 0,
-    "password": "Not Copyable",
+    "id": "143653834",
+    "name": "Challenge 4 Hammich",
+    "author": "F3MI30Y",
+    "creators": ["y33t1o00"],
+    "verifier": "hammich",
+    "verification": "https://youtu.be/pQ9AIqlvQG8?is=tlY_GoKZyFgP5jIL",
+    "percentToQualify": 100,
+    "password": "Free Copy",
     "records": [
         {
-            "user": "Sample_Victor_1",
-            "link": "https://www.youtube.com/watch?v=MgJeijBGKHU",
-            "percent": 100,
-            "hz": 360
         }
     ]
 }
