@@ -1,51 +1,46 @@
 :root {
-    --color-background: white;
-    --color-on-background: black;
-    --color-background-hover: #eee;
-    --color-on-background-hover: black;
-    --color-primary: #0066ff;
-    --color-on-primary: white;
-    --color-error: #de0000;
-    --color-on-error: white;
+    --color-background: #17181c;
+    --color-on-background: #f1f0f5;
+    --color-background-hover: #24262d;
+    --color-on-background-hover: #ffffff;
+    --color-primary: #8f8bc4;
+    --color-on-primary: #ffffff;
+    --color-error: #d95757;
+    --color-on-error: #ffffff;
 }
-
 main.dark,
 header.dark {
     color-scheme: dark;
-    --color-background: #1c1b1f;
-    --color-on-background: white;
-    --color-background-hover: #27262c;
-    --color-on-background-hover: white;
-    --color-primary: #283593;
-    --color-primary-disabled: #1f213c;
-    --color-on-primary: white;
-    --color-error: #de0000;
-    --color-on-error: white;
+    --color-background: #17181c;
+    --color-on-background: #f1f0f5;
+    --color-background-hover: #24262d;
+    --color-on-background-hover: #ffffff;
+    --color-primary: #8f8bc4;
+    --color-primary-disabled: #4b4964;
+    --color-on-primary: #ffffff;
+    --color-error: #d95757;
+    --color-on-error: #ffffff;
 }
-
 html,
 body {
     height: 100%;
 }
-
 body {
     display: flex;
     flex-direction: column;
     margin: 0;
 }
-
 header,
 main {
     background-color: var(--color-background);
     color: var(--color-on-background);
     display: grid;
     grid-template-columns: minmax(16rem, 1fr) minmax(16rem, 2fr) minmax(
-            16em,
+            16rem,
             1fr
         );
     column-gap: 2rem;
 }
-
 header {
     display: flex;
     padding-inline: calc(25vw - 10rem);
@@ -69,7 +64,6 @@ header .logo {
 header .nav {
     flex: 1;
 }
-
 main {
     height: 0;
     flex: 1;
@@ -80,14 +74,12 @@ main {
 main > div {
     overflow-y: auto;
 }
-
 .spinner {
     display: flex;
     align-items: center;
     justify-content: center;
     grid-column: span 3;
 }
-
 input[type="checkbox"] {
     height: 1.25rem;
     width: 1.25rem;
