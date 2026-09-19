@@ -9,7 +9,10 @@
     "password": "Free Copy",
     "records": [
         {
-            "hammich (verifier) 100% 360hz"
+            "user": "ham",
+            "link": "https://youtu.be/pQ9AIqlvQG8?is=tlY_GoKZyFgP5jIL",
+            "percent": 100,
+            "hz": 360
         }
     ]
 }
