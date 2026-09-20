@@ -1,0 +1,13 @@
+{
+    "id": "8271",
+    "name": "test",
+    "author": "test",
+    "creators": [
+        "test"
+    ],
+    "verifier": "test",
+    "verification": "https://hfcl.hammich.workers.dev",
+    "percentToQualify": 100,
+    "password": "Free Copy",
+    "records": []
+}
